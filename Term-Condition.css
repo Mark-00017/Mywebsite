@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url("explore.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.term-box {
+  max-width: 600px;
+  background-color: black;
+  color: white;
+  font-family: "Montserrat";
+  padding: 60px 3px
+}
+.term-text {
+  padding:  0 20px;
+  height: 800px;
+  overflow-y: auto;
+  font-size: 20px;
+  color: white
+}
+.term-text::-webkit-scrollbar-thumb {
+  background-color:  tomato;
+}
+.term-text h2 {
+  text-transform:  upper-case;
+}
+.term-box h4 {
+  font-size: 13px;
+  text-align: center;
+  padding: 0 40px;
+}
+.term-box h4 span {
+  color: tomato;
+}
+.buttons {
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+.btn {
+  height: 50px;
+  width: calc(50% -6px);
+  border: 0;
+  border-radius: 6px;
+  font-size: 19px;
+  font-weight: 500;
+  color: white;
+  transition: 3s linear;
+  cursor: pointer;
+}
+.red-btn {
+  background-color: tomato;
+}
+.red-btn a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+.gray-btn {
+  background-color: #282828;
+}
+.btn:hover {
+  opacity: .6;
+}

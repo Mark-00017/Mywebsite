@@ -1,0 +1,81 @@
+body{
+    width:100%;
+    margin: 0;
+    padding: 0;
+    font-family:  'Roboto', sans-serif;
+    background-image: url(explore.jpg);
+    background-size: cover;
+    color: white;
+    margin-right: 10px;
+  }
+  header {
+    background: navy;
+    padding-bottom: 10px;
+  }
+  .navbar {
+    height: 15%;
+    display: flex;
+    align-items: center;
+  }
+  nav{
+    flex: 2;
+    text-align: right;
+  }
+  nav ul {
+    float: right;
+    margin-right: 10px;
+  }
+  nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 13px;
+    margin-left: 5px;
+    margin-right: 10px;
+    line-height: 20px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 0px;
+    position: relative;
+    text-transform: uppercase;
+  }
+  nav ul li a:before{
+    position: absolute;
+    content: " ";
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+    background: white;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .4s linear;
+  }
+  nav ul li a:hover:before{
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+.title {
+    color: royalblue;;
+    font-size: 30px;
+    font-family: Helvetica;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 20px;
+  }
+section {
+  font-size: 30px;
+    text-align:center;
+    padding: 3px;
+  }
+h3 {
+  color: royalblue;
+  font-size: 50px;
+}
+p {
+  font-size: 30px;
+  margin-left: 90px;
+  margin-right: 90px;
+}
